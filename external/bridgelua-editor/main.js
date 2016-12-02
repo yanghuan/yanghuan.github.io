@@ -2,7 +2,8 @@ $(function () {
     var samples = [
         "Hello World",
         "Fibonacci",
-        "TimeoutQueue"
+        "TimeoutQueue",
+        "Linq"
     ];
 
     $.each(samples, function (k, v) {
