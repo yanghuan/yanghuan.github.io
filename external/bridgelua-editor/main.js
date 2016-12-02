@@ -50,7 +50,7 @@ $(function () {
 
         function run() {
             switchElement();
-            $.post("http://webbridgelua.azurewebsites.net/api/Compile", { codes: csharpEditor.getValue() }, function (data) {
+            $.post("https://webbridgelua.azurewebsites.net/api/Compile", { codes: csharpEditor.getValue() }, function (data) {
                 luaEditor.setValue(data);
                 switchElement();
             }).error(function (response) {
