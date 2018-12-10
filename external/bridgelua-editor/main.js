@@ -50,7 +50,7 @@ $(function () {
 
         function run() {
             switchElement();
-            $.post("https://csharpluaservice.appspot.com/api/Compiler", csharpEditor.getValue(), function (data) {
+            $.post("https://csharpluaservice.azurewebsites.net/api/Compile", { codes: csharpEditor.getValue() }, function (data) {
                 luaEditor.setValue(data);
                 switchElement();
             }).error(function (response) {
