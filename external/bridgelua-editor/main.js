@@ -55,7 +55,7 @@ $(function () {
                 switchElement();
             }).error(function (response) {
                 console.log(response);
-                luaEditor.setValue("An unexpected error ocurred... please try again later.");
+                luaEditor.setValue("An unexpected error ocurred... please try again later or use proxy.");
                 switchElement();
             });
         };
