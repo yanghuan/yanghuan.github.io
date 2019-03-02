@@ -50,7 +50,7 @@ $(function () {
 
         function run() {
             switchElement();
-            $.post("http://47.52.59.185:5000/api/Compiler", csharpEditor.getValue(), function (data) {
+            $.post("https://csharpluaservice.appspot.com/api/Compiler", csharpEditor.getValue(), function (data) {
                 luaEditor.setValue(data);
                 switchElement();
             }).error(function (response) {
