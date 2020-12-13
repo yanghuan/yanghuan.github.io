@@ -190,7 +190,7 @@
       "CSharp.lua.dll": "sha256-xlEGEdS8vAcY2yjkWQ9jmdxTCBCq2MjdqZjfSJExsE0=",
       "Microsoft.CodeAnalysis.CSharp.dll": "sha256-rSb747Ld6TUgxUJfdOo9F6\/y7gRcZZRV9RchgbiQpyY=",
       "Microsoft.CodeAnalysis.dll": "sha256-kkS+YkfacuLb7xwvAPndwoBROxtDurtxLjDA8aSsQjY=",
-      "CSharpLuaBlazor.dll": "sha256-6gSbALZc0ANZ\/B7VrgNwUqmW7bRJrxrAS+8+K5ijiqU="
+      "CSharpLuaBlazor.dll": "sha256-AQ4G68nCFYtaImIp4NT+KUhcjExmU2By4+p4r+haYqw="
     },
     "lazyAssembly": null,
     "pdb": null,
