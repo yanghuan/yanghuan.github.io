@@ -1,1 +1,1 @@
-# sy-yanghuan.github.io
+# yanghuan.github.io
