@@ -7279,7 +7279,7 @@ diffuseColor.rgb *= owAlbedo.rgb;
   uniform vec3 uParams;     // x: karis(第一级=1), y: threshold, z: knee
   varying vec2 vUv;
 
-  float luminance(vec3 c) { return dot(c, vec3(0.2126, 0.7152, 0.0722)); }
+  // 复用 three 内置 luminance()（ShaderMaterial 前缀已注入，系数同为 Rec.709 0.2126/0.7152/0.0722）
   vec3 fetch(vec2 uv) { return max(texture2D(tSrc, uv).rgb, vec3(0.0)); }
   float karisWeight(vec3 c) { return 1.0 / (1.0 + luminance(c)); }
 
